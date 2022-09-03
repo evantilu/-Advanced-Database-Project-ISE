@@ -1,0 +1,162 @@
+----------------------------------------------------------
+
+
+Your input parameter:
+
+API Key:  AIzaSyBBi7WOxVf_3waDwBkM_roXIMaceDCsVog
+Search engine ID:  91b445df8028cd711
+r: 2
+t: 0.7
+q: bill gates microsoft
+k: 10
+----------------------------------------------------------
+
+
+Iteration #{}: 1
+
+Issuing a custom Google search engine query: bill gates microsoft 
+
+
+
+Processing webpage: https://en.wikipedia.org/wiki/Bill_Gates
+
+truncated from 135468 to 20000 characters
+Loading pre-trained spanBERT from ./pretrained_spanbert
+Total # sentences = 181
+
+                === Extracted Relation ===
+                Tokens: ['founder', 'of', ' ', 'Microsoft', ',', 'along', 'with', 'his', 'late', 'childhood', 'friend', ' ', 'Paul', 'Allen', '.']
+                Relation: per:employee_of (Confidence: 0.835)
+                Subject: Paul Allen
+                Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['he', 'and', 'Allen', 'founded', 'Microsoft', 'in', ' ', 'Albuquerque', ',']
+                Relation: per:employee_of (Confidence: 0.988)
+                Subject: Allen
+                Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['time', 'work', 'at', 'the', ' ', 'Bill', '&', 'Melinda', 'Gates', 'Foundation', ',', 'the', 'private', 'charitable', 'foundation', 'he', 'and', 'his', 'then', '-', 'wife', ',', ' ', 'Melinda', 'Gates', ',']
+                Relation: per:employee_of (Confidence: 0.611)
+                Subject: Melinda Gates
+                Object: the  Bill &
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Tokens: [' ', 'He', 'stepped', 'down', 'as', 'chairman', 'of', 'the', 'board', 'of', 'Microsoft', 'in', 'February', '2014', 'and', 'assumed', 'a', 'new', 'post', 'as', 'technology', 'adviser', 'to', 'support', 'the', 'newly', 'appointed', 'CEO', ' ', 'Satya', 'Nadella', '.']
+                Relation: per:employee_of (Confidence: 0.997)
+                Subject: Satya Nadella
+                Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['Gates', 'left', 'his', 'board', 'positions', 'at', 'Microsoft', 'and', ' ', 'Berkshire', 'Hathaway', ' ', 'to', 'focus', 'on', 'his', 'philanthropic', 'efforts', 'including', ' ', 'climate', 'change', ',']
+                Relation: per:employee_of (Confidence: 0.994)
+                Subject: Gates
+                Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['he', 'was', 'surpassed', 'by', ' ', 'Amazon', ' ', 'founder', 'and', 'CEO', ' ', 'Jeff', 'Bezos', ',']
+                Relation: per:employee_of (Confidence: 0.997)
+                Subject: Jeff Bezos
+                Object: Amazon
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['he', 'was', 'surpassed', 'by', ' ', 'Amazon', ' ', 'founder', 'and', 'CEO', ' ', 'Jeff', 'Bezos', ',', 'who', 'had', 'an', 'estimated', 'net', 'worth', 'of', 'US$', '90.6', 'billion', 'compared', 'to', 'Gates', "'s", 'net', 'worth', 'of', 'US$', '89.9', 'billion', 'at', 'the', 'time', '.']
+                Relation: per:employee_of (Confidence: 0.996)
+                Subject: Jeff Bezos
+                Object: Gates
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['Gates', 'and', ' ', 'Warren', 'Buffett', ' ', 'founded', ' ', 'The', 'Giving', 'Pledge', ',']
+                Relation: per:employee_of (Confidence: 0.514)
+                Subject: Pledge
+                Object: Gates
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['and', 'his', 'mother', 'served', 'on', 'the', 'board', 'of', 'directors', 'for', ' ', 'First', 'Interstate', 'BancSystem', ' ', 'and', 'the', ' ', 'United', 'Way', 'of', 'America', '.']
+                Relation: per:employee_of (Confidence: 0.985)
+                Subject: the  United Way of America
+                Object: BancSystem
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: [' ', 'While', 'at', 'Harvard', ',', 'he', 'met', 'fellow', 'student', ' ', 'Steve', 'Ballmer', '.']
+                Relation: per:schools_attended (Confidence: 0.991)
+                Subject: Steve Ballmer
+                Object: Harvard
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['Gates', 'left', 'Harvard', 'after', 'two', 'years', 'while', 'Ballmer', 'stayed', 'and', 'graduated', ' ', 'magna', 'cum', 'laude', '.']
+                Relation: per:employee_of (Confidence: 0.709)
+                Subject: Ballmer
+                Object: Harvard
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['Ballmer', 'succeeded', 'Gates', 'as', 'Microsoft', "'s", 'CEO', 'and', 'maintained', 'that', 'position', 'from', '2000', 'until', 'his', 'resignation', 'in', '2014', '.']
+                Relation: per:employee_of (Confidence: 0.996)
+                Subject: Ballmer
+                Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['Ballmer', 'succeeded', 'Gates', 'as', 'Microsoft', "'s", 'CEO', 'and', 'maintained', 'that', 'position', 'from', '2000', 'until', 'his', 'resignation', 'in', '2014', '.']
+                Relation: per:employee_of (Confidence: 0.996)
+                Subject: Gates
+                Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: [' ', 'His', 'solution', 'was', 'formalized', 'and', 'published', 'in', 'collaboration', 'with', 'Harvard', 'computer', 'scientist', ' ', 'Christos', 'Papadimitriou', '.']
+                Relation: per:employee_of (Confidence: 0.979)
+                Subject: Christos Papadimitriou
+                Object: Harvard
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Tokens: ['IBM', 'representative', 'Jack', 'Sams', 'mentioned', 'the', 'licensing', 'difficulties', 'during', 'a', 'subsequent', 'meeting', 'with', 'Gates', 'and', 'asked', 'if', 'Microsoft', 'could', 'provide', 'an', 'operating', 'system', '.']
+                Relation: per:employee_of (Confidence: 0.904)
+                Subject: Jack Sams
+                Object: IBM
+                Adding to set of extracted relations
+                ==========
+--------------Result----------------
+Confidence      |Subject        |Object
+
+Confidence: 0.9972562193870544  Subject: satya nadella  Object: microsoft
+Confidence: 0.9968996644020081  Subject: jeff bezos     Object: amazon
+Confidence: 0.9957603812217712  Subject: gates  Object: microsoft
+Confidence: 0.9957062602043152  Subject: jeff bezos     Object: gates
+Confidence: 0.9955676198005676  Subject: ballmer        Object: microsoft
+Confidence: 0.9880847930908203  Subject: allen  Object: microsoft
+Confidence: 0.985172688961029   Subject: the  united way of america     Object: bancsystem
+Confidence: 0.9794217348098755  Subject: christos papadimitriou Object: harvard
+Confidence: 0.834887683391571   Subject: paul allen     Object: microsoft
+Confidence: 0.7087728381156921  Subject: ballmer        Object: harvard
+
+Number of relations: 10
+
+Total number of iterations:  1
